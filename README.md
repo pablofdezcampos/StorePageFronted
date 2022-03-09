@@ -9,10 +9,6 @@
 
 # Page Structure
 - Header
-- Main Menu
-- Services
-- Contact form
 - Footer
 
 # VIEW
-- https://homepageresponsivefrontedpf.netlify.app/
