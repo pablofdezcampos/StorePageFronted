@@ -1,0 +1,56 @@
+/* GENERIC */
+:root{
+
+    /* COLORS */
+    --mainColor: #69a2db;
+    --mainDarkColor: #55a4f3;
+    --secondaryColor: #ecdb43;
+    --secondaryDarkColor: #f3ba29;
+    --white: #ffffff;
+    --black:Ñ #000000;
+
+    /* FONTSTYLE */
+    --mainFontStyle: 'Yanone Kaffeesatz', sans-serif;
+}
+
+*, *::before, *:after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem 10px */
+}
+
+/* GLOBAL*/
+
+body{
+    background-color: var(--mainColor);
+    font-size: 1.6rem;
+    line-height: 1.5; /* line spacing */
+}
+
+h1, h2, h3{
+    text-align: center;
+    color: var(--secondaryColor);
+    font-family: var(--mainFontStyle);
+}
+
+h1{ font-size: 4rem; }
+h2{ font-size: 3.2rem;}
+h3{font-size: 2.4rem;}
+
+p{
+    font-size: 1.8rem;
+    font-family: var(--mainFontStyle);
+    color: var(--white);
+}
+
+a{ text-decoration: none; }
+
+img{ max-width: 100%; }
+
+.container{
+    margin: 0 auto; /* to center */
+    max-width: 120rem;
+}
