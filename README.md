@@ -11,7 +11,7 @@
 - Header
 - Footer
 
-# Design Errors
+# Development Errors
 - Due to in this project I do not add a Database for the Backend, I have to repeat HTML code. That is a wrong practise.
 
 # VIEW
