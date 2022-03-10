@@ -126,7 +126,6 @@ To sustitute gap in .menu, in order of it is not totally supported.
   background-color: var(--mainDarkColor);
   padding: 3rem;
 }
-
 .product__name {
   font-size: 4rem;
 }
@@ -174,7 +173,6 @@ To sustitute gap in .menu, in order of it is not totally supported.
 
 .us__image {
   grid-row: 1 /2;
-  width: 100%;
 }
 
 /* BLOCK ICONS */
@@ -195,6 +193,44 @@ To sustitute gap in .menu, in order of it is not totally supported.
 
 .block__image {
   width: 100%;
+}
+
+/* PRODUCT PAGE DETAIL*/
+.product {
+  background-color: var(--mainColor);
+}
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.form__select {
+  /*border-color: var(--mainDarkColor);
+  border-width: 1rem;
+  border-style: solid;*/
+  border: 1rem solid var(--mainDarkColor);
+  font-size: 2rem;
+  font-family: var(--mainFontStyle);
+  padding: 1rem;
+}
+
+.form__submit {
+  background-color: var(--secondaryColor);
+  border: none;
+  border-radius: 0.8rem;
+  font-size: 2rem;
+  font-family: var(--mainFontStyle);
+  padding: 2rem;
+  /* transition if for the effect of the hover action. We have to reference the atributte, the time and the ease, the effect*/
+  transition: font-size 0.5s ease-in-out;
+  grid-column: 1 / 3;
+}
+
+.form__submit:hover {
+  cursor: pointer;
+  background-color: var(--secondaryDarkColor);
+  font-size: 3rem;
 }
 
 /* FOOTER */
@@ -241,5 +277,12 @@ To sustitute gap in .menu, in order of it is not totally supported.
   /* BLOCKS */
   .blocks {
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* PAGE PRODUCT DETAIL */
+  .product {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
   }
 }
