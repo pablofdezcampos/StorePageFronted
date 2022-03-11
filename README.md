@@ -1,6 +1,7 @@
 # Description
 - Projec to develop a front-end web page.
 - Project with responsive design.
+- Example of a web store.
 
 # Technologies 
 - HTML5 for the sctructure and elements of the page.
