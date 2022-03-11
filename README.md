@@ -1,6 +1,7 @@
 # Description
 - Projec to develop a front-end web page.
 - Project with responsive design.
+- Example of a web store.
 
 # Technologies 
 - HTML5 for the sctructure and elements of the page.
@@ -10,5 +11,8 @@
 # Page Structure
 - Header
 - Footer
+
+# Development Errors
+- Due to in this project I do not add a Database for the Backend, I have to repeat HTML code. That is a wrong practise.
 
 # VIEW
