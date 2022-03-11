@@ -155,16 +155,30 @@ To sustitute gap in .menu, in order of it is not totally supported.
 /* ABOUT US */
 .us{
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, fr);
+    grid-template-columns: repeat(2, auto); /* for no separation between the elements */
 }
-
-.us__text{
-    
-}
-
 .us__image{
+    grid-column: 1 / 2;
+}
 
+/*BLOCK ICONS*/
+
+.blocks{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+}
+
+.block{
+    text-align: center;
+}
+
+.block__title{
+    margin: 0;
+}
+
+.block__image{
+    max-width: 100%;
 }
 
 /* FOOTER */
@@ -198,8 +212,18 @@ To sustitute gap in .menu, in order of it is not totally supported.
 
     /* ABOUT US */
     .us{
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
         justify-content: center;
-        gap: 3rem;
+    }
+
+    .us__image{
+        grid-column: 2 / 3;
+    }
+
+    /* BLOCK ICONS */
+    .blocks{
+        grid-template-columns: repeat(4, 1fr);
     }
 }
